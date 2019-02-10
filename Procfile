@@ -1,1 +1,1 @@
-worker: python mello.py
+worker: python main.py
