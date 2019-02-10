@@ -98,4 +98,4 @@ async def on_member_remove(member):
             embed.set_thumbnail(url=member.avatar_url)
             await client.send_message(channel, embed=embed) 
             
-client.run(os.getenv('itsmellobotz'))            
+client.run(os.getenv('bottoken'))            
